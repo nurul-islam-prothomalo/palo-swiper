@@ -273,4 +273,4 @@ function elementOuterSize(el, size, includeMargins) {
   return el.offsetWidth;
 }
 
-export { now as a, elementOffset as b, elementChildren as c, createElement as d, elementParents as e, classesToTokens as f, getTranslate as g, elementStyle as h, elementOuterSize as i, elementNextAll as j, elementPrevAll as k, animateCSSModeScroll as l, showWarning as m, nextTick as n, extend as o, elementIndex as p, deleteProps as q, setCSSProperty as s };
+export { now as a, elementOffset as b, elementOuterSize as c, elementIndex as d, elementParents as e, classesToTokens as f, createElement as g, elementChildren as h, getTranslate as i, elementStyle as j, elementNextAll as k, elementPrevAll as l, animateCSSModeScroll as m, nextTick as n, showWarning as o, extend as p, deleteProps as q, setCSSProperty as s };

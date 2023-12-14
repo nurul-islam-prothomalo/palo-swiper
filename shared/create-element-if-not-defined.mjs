@@ -1,4 +1,4 @@
-import { c as elementChildren, d as createElement } from './utils.mjs';
+import { h as elementChildren, g as createElement } from './utils.mjs';
 
 function createElementIfNotDefined(swiper, originalParams, params, checkProps) {
   if (swiper.params.createElements) {

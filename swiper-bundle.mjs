@@ -14,12 +14,13 @@ import { S as Swiper } from './shared/swiper-core.mjs';
 import Mousewheel from './modules/mousewheel.mjs';
 import Keyboard from './modules/keyboard.mjs';
 import Navigation from './modules/navigation.mjs';
+import Pagination from './modules/pagination.mjs';
 import Scrollbar from './modules/scrollbar.mjs';
 import Zoom from './modules/zoom.mjs';
 import Autoplay from './modules/autoplay.mjs';
 
 // Swiper Class
-const modules = [Mousewheel, Keyboard, Navigation, Scrollbar, Zoom, Autoplay];
+const modules = [Mousewheel, Keyboard, Navigation, Pagination, Scrollbar, Zoom, Autoplay];
 Swiper.use(modules);
 
 export { Swiper, Swiper as default };

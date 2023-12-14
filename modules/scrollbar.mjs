@@ -1,14 +1,7 @@
 import { a as getDocument } from '../shared/ssr-window.esm.mjs';
-import { f as classesToTokens, d as createElement, n as nextTick, b as elementOffset } from '../shared/utils.mjs';
+import { f as classesToTokens, g as createElement, n as nextTick, b as elementOffset } from '../shared/utils.mjs';
 import { c as createElementIfNotDefined } from '../shared/create-element-if-not-defined.mjs';
-
-function classesToSelector(classes) {
-  if (classes === void 0) {
-    classes = '';
-  }
-  return `.${classes.trim().replace(/([\.:!+\/])/g, '\\$1') // eslint-disable-line
-  .replace(/ /g, '.')}`;
-}
+import { c as classesToSelector } from '../shared/classes-to-selector.mjs';
 
 function Scrollbar(_ref) {
   let {
