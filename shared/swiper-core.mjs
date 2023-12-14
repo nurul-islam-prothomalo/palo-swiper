@@ -1,5 +1,5 @@
 import { g as getWindow, a as getDocument } from './ssr-window.esm.mjs';
-import { c as elementParents, j as elementStyle, d as elementChildren, s as setCSSProperty, e as elementOuterSize, k as elementNextAll, l as elementPrevAll, h as getTranslate, m as animateCSSModeScroll, n as nextTick, o as showWarning, f as createElement, a as now, p as extend, b as elementIndex, q as deleteProps } from './utils.mjs';
+import { e as elementParents, h as elementStyle, c as elementChildren, s as setCSSProperty, i as elementOuterSize, j as elementNextAll, k as elementPrevAll, g as getTranslate, l as animateCSSModeScroll, n as nextTick, m as showWarning, d as createElement, a as now, o as extend, p as elementIndex, q as deleteProps } from './utils.mjs';
 
 let support;
 function calcSupport() {

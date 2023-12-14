@@ -265,16 +265,6 @@ function elementParents(el, selector) {
   }
   return parents;
 }
-function elementTransitionEnd(el, callback) {
-  function fireCallBack(e) {
-    if (e.target !== el) return;
-    callback.call(el, e);
-    el.removeEventListener('transitionend', fireCallBack);
-  }
-  if (callback) {
-    el.addEventListener('transitionend', fireCallBack);
-  }
-}
 function elementOuterSize(el, size, includeMargins) {
   const window = getWindow();
   if (includeMargins) {
@@ -283,4 +273,4 @@ function elementOuterSize(el, size, includeMargins) {
   return el.offsetWidth;
 }
 
-export { now as a, elementIndex as b, elementParents as c, elementChildren as d, elementOuterSize as e, createElement as f, elementOffset as g, getTranslate as h, elementTransitionEnd as i, elementStyle as j, elementNextAll as k, elementPrevAll as l, animateCSSModeScroll as m, nextTick as n, showWarning as o, extend as p, deleteProps as q, setCSSProperty as s };
+export { now as a, elementOffset as b, elementChildren as c, createElement as d, elementParents as e, classesToTokens as f, getTranslate as g, elementStyle as h, elementOuterSize as i, elementNextAll as j, elementPrevAll as k, animateCSSModeScroll as l, showWarning as m, nextTick as n, extend as o, elementIndex as p, deleteProps as q, setCSSProperty as s };
