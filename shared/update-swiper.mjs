@@ -233,4 +233,4 @@ function updateSwiper(_ref) {
   swiper.update();
 }
 
-export { needsPagination as a, needsScrollbar as b, attrToProp as c, uniqueClasses as d, extend as e, isObject as i, needsNavigation as n, paramsList as p, updateSwiper as u, wrapperClass as w };
+export { attrToProp as a, needsPagination as b, needsScrollbar as c, uniqueClasses as d, extend as e, isObject as i, needsNavigation as n, paramsList as p, updateSwiper as u, wrapperClass as w };

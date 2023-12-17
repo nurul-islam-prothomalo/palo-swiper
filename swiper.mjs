@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: December 14, 2023
+ * Released on: December 17, 2023
  */
 
 export { S as Swiper, S as default } from './shared/swiper-core.mjs';

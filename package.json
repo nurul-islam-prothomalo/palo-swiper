@@ -1,6 +1,6 @@
 {
   "name": "palo-swiper",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
   "typings": "swiper.d.ts",
   "type": "module",
@@ -20,8 +20,6 @@
       "default": "./swiper-bundle.mjs"
     },
     "./css": "./swiper.css",
-    "./css/bundle": "./swiper-bundle.css",
-    "./swiper-bundle.css": "./swiper-bundle.css",
     "./css/autoplay": "./modules/autoplay.css",
     "./css/keyboard": "./modules/keyboard.css",
     "./css/manipulation": "./modules/manipulation.css",
@@ -30,35 +28,9 @@
     "./css/pagination": "./modules/pagination.css",
     "./css/scrollbar": "./modules/scrollbar.css",
     "./css/zoom": "./modules/zoom.css",
-    "./less": "./swiper.less",
-    "./less/a11y": "./modules/a11y.less",
-    "./less/autoplay": "./modules/autoplay.less",
-    "./less/history": "./modules/history.less",
-    "./less/keyboard": "./modules/keyboard.less",
-    "./less/navigation": "./modules/navigation.less",
-    "./less/pagination": "./modules/pagination.less",
-    "./less/scrollbar": "./modules/scrollbar.less",
-    "./less/zoom": "./modules/zoom.less",
-    "./scss": "./swiper.scss",
-    "./scss/autoplay": "./modules/autoplay.scss",
-    "./scss/history": "./modules/history.scss",
-    "./scss/keyboard": "./modules/keyboard.scss",
-    "./scss/mousewheel": "./modules/mousewheel.scss",
-    "./scss/navigation": "./modules/navigation.scss",
-    "./scss/pagination": "./modules/pagination.scss",
-    "./scss/scrollbar": "./modules/scrollbar.scss",
-    "./scss/zoom": "./modules/zoom.scss",
     "./element": {
       "types": "./swiper-element.d.ts",
       "default": "./swiper-element.mjs"
-    },
-    "./element/bundle": {
-      "types": "./swiper-element.d.ts",
-      "default": "./swiper-element-bundle.mjs"
-    },
-    "./element-bundle": {
-      "types": "./swiper-element.d.ts",
-      "default": "./swiper-element-bundle.mjs"
     },
     "./element/css/a11y": "./modules/a11y-element.css",
     "./element/css/autoplay": "./modules/autoplay-element.css",
@@ -72,10 +44,6 @@
     "./react": {
       "types": "./swiper-react.d.ts",
       "default": "./swiper-react.mjs"
-    },
-    "./vue": {
-      "types": "./swiper-vue.d.ts",
-      "default": "./swiper-vue.mjs"
     },
     "./modules": {
       "types": "./types/modules/index.d.ts",
@@ -92,14 +60,8 @@
       "element": [
         "./swiper-element.d.ts"
       ],
-      "element/bundle": [
-        "./swiper-element.d.ts"
-      ],
       "react": [
         "./swiper-react.d.ts"
-      ],
-      "vue": [
-        "./swiper-vue.d.ts"
       ]
     }
   },
@@ -123,7 +85,6 @@
     "gallery",
     "plugin",
     "react",
-    "vue",
     "slideshow"
   ],
   "author": "Vladimir Kharlampidi",
@@ -145,5 +106,5 @@
   "engines": {
     "node": ">= 4.7.0"
   },
-  "releaseDate": "November 22, 2023"
+  "releaseDate": "December 17, 2023"
 }

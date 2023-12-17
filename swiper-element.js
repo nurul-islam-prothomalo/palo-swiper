@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: December 14, 2023
+ * Released on: December 17, 2023
  */
 
 (function () {
@@ -4508,6 +4508,19 @@
     swiper.update();
   }
 
+  /**
+   * Swiper Custom Element 11.0.5
+   * Most modern mobile touch slider and framework with hardware accelerated transitions
+   * https://swiperjs.com
+   *
+   * Copyright 2014-2023 Vladimir Kharlampidi
+   *
+   * Released under the MIT License
+   *
+   * Released on: December 17, 2023
+   */
+
+
   const formatValue = val => {
     if (parseFloat(val) === Number(val)) return Number(val);
     if (val === 'true') return true;
@@ -4609,19 +4622,6 @@
       passedParams
     };
   }
-
-  /**
-   * Swiper Custom Element 11.0.5
-   * Most modern mobile touch slider and framework with hardware accelerated transitions
-   * https://swiperjs.com
-   *
-   * Copyright 2014-2023 Vladimir Kharlampidi
-   *
-   * Released under the MIT License
-   *
-   * Released on: December 14, 2023
-   */
-
 
   /* eslint-disable spaced-comment */
 
