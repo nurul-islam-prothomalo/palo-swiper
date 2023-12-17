@@ -1,6 +1,6 @@
 {
   "name": "palo-swiper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
   "typings": "swiper.d.ts",
   "type": "module",
@@ -106,5 +106,5 @@
   "engines": {
     "node": ">= 4.7.0"
   },
-  "releaseDate": "December 17, 2023"
+  "releaseDate": "November 22, 2023"
 }
